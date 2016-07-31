@@ -21,6 +21,7 @@ import android.support.v4.view.PagerAdapter;
 import android.support.v4.view.ViewPager;
 import android.support.v4.view.ViewPager.OnPageChangeListener;
 import android.util.AttributeSet;
+import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.HorizontalScrollView;
@@ -84,6 +85,13 @@ public class TabPageIndicator extends HorizontalScrollView implements PageIndica
 
         mTabLayout = new IcsLinearLayout(context, R.attr.vpiTabPageIndicatorStyle);
         addView(mTabLayout, new ViewGroup.LayoutParams(WRAP_CONTENT, MATCH_PARENT));
+    }
+
+    @Override
+    public boolean dispatchTouchEvent(MotionEvent ev) {
+        getParent().requestDisallowInterceptTouchEvent(true);
+        return super.dispatchTouchEvent(ev);
+
     }
 
     public void setOnTabReselectedListener(OnTabReselectedListener listener) {

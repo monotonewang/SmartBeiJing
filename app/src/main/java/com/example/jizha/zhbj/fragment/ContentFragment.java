@@ -7,6 +7,7 @@ import android.view.ViewGroup;
 import android.widget.RadioGroup;
 
 import com.example.jizha.zhbj.R;
+import com.example.jizha.zhbj.activity.MainActivity;
 import com.example.jizha.zhbj.pager.base.BasePager;
 import com.example.jizha.zhbj.pager.bottom.GovPager;
 import com.example.jizha.zhbj.pager.bottom.HomePager;
@@ -38,6 +39,8 @@ public class ContentFragment extends BaseFragment {
 //        ViewUtils.inject(this, inflate);
         rgBottom = (RadioGroup) inflate.findViewById(R.id.rg_bottom);
         mViewPager = (ViewPager) inflate.findViewById(R.id.vp_content);
+
+
     }
 
     @Override

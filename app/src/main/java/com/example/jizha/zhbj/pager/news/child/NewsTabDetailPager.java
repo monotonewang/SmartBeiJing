@@ -28,7 +28,6 @@ public class NewsTabDetailPager  extends BaseMenuPager {
     public View initView() {
         View inflate = LayoutInflater.from(activity).inflate(R.layout.fragment_news_vp_child, null, false);
         textView = (TextView) inflate.findViewById(R.id.newsChildTV);
-
         return inflate;
     }
 

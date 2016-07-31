@@ -21,6 +21,7 @@ import android.util.AttributeSet;
 import android.util.Log;
 import android.view.Display;
 import android.view.LayoutInflater;
+import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewGroup;
 import android.view.WindowManager;
@@ -30,6 +31,19 @@ import android.widget.RelativeLayout;
 import com.jeremyfeinstein.slidingmenu.lib.CustomViewAbove.OnPageChangeListener;
 
 public class SlidingMenu extends RelativeLayout {
+
+//	http://blog.csdn.net/wjb857999880/article/details/51485820
+
+//	@Override
+//	public boolean onInterceptTouchEvent(MotionEvent ev) {
+//		int action =ev.getAction();
+//		if(action==MotionEvent.ACTION_DOWN){
+//			return false;
+//		}else{
+//			return true;
+//		}
+////		return super.onInterceptTouchEvent(ev);
+//	}
 
 	private static final String TAG = SlidingMenu.class.getSimpleName();
 

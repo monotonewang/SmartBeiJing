@@ -2,13 +2,28 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
     <com.viewpagerindicator.TabPageIndicator
         android:id="@+id/indicator"
         android:layout_height="wrap_content"
         android:layout_width="fill_parent"
+        android:layout_weight="1"
         />
-    <android.support.v4.view.ViewPager
+        <ImageButton
+            android:padding="5dp"
+            android:layout_gravity="center_vertical"
+            android:id="@+id/ibNext"
+            android:src="@drawable/icon_150"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <com.example.jizha.zhbj.views.HorizontalViewPager
         android:id="@+id/newsVp"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"></android.support.v4.view.ViewPager>
+        android:layout_height="match_parent"></com.example.jizha.zhbj.views.HorizontalViewPager>
 </LinearLayout>

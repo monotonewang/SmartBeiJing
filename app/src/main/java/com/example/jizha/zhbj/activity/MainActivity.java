@@ -28,6 +28,7 @@ public class MainActivity extends SlidingFragmentActivity {
         setBehindContentView(R.layout.left_menu);
 
         SlidingMenu slidingMenu = getSlidingMenu();
+
         slidingMenu.setTouchModeAbove(SlidingMenu.TOUCHMODE_FULLSCREEN);
         float density = getResources().getDisplayMetrics().density;
         int v = (int) (200 * density + 0.5f);
