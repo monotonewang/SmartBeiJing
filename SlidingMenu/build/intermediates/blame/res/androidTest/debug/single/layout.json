@@ -1,5 +1,9 @@
 [
     {
+        "merged": "C:\\AndroidWorkSpace\\StudioWorkSpace\\smartBeiJing\\SlidingMenu\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\slidingmenumain.xml",
+        "source": "C:\\AndroidWorkSpace\\StudioWorkSpace\\smartBeiJing\\SlidingMenu\\build\\intermediates\\bundles\\debug\\res\\layout\\slidingmenumain.xml"
+    },
+    {
         "merged": "C:\\Project\\AndroidEclipse\\ZhBj\\SlidingMenu\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\slidingmenumain.xml",
         "source": "C:\\Project\\AndroidEclipse\\ZhBj\\SlidingMenu\\build\\intermediates\\bundles\\debug\\res\\layout\\slidingmenumain.xml"
     }

@@ -7,7 +7,7 @@ package com.example.jizha.zhbj.global;
  * since：V TODO <br/>
  */
 public class Constants {
-    public static final String SERVER_URL="http://192.168.1.102/zhbj";
-//    http://localhost/zhbj/categories.json
+    public static final String SERVER_URL="http://192.168.1.31:8080/zhbj";
+//    http://localhost:8080/zhbj/categories.json
     public static final String CATEGPORIES_URL=SERVER_URL+"/categories.json";//获取分类信息
 }

@@ -29,9 +29,9 @@ public class HomePager extends BasePager {
 
         TextView textView = new TextView(mActivity);
         OkioUtils.setString();
-        String string = OkioUtils.getString();
+//        String string = OkioUtils.getString(); 这里使用的 okio
         textView.setText("首页");
-        textView.setText(string);
+//        textView.setText(string);
         textView.setGravity(Gravity.CENTER);
         flcontent.addView(textView);
     }
