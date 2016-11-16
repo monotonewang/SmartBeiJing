@@ -1,18 +1,10 @@
 [
     {
-        "merged": "C:\\AndroidWorkSpace\\StudioWorkSpace\\smartBeiJing\\vpIndicator\\build\\intermediates\\res\\merged\\androidTest\\debug\\color\\vpi__light_theme.xml",
-        "source": "C:\\AndroidWorkSpace\\StudioWorkSpace\\smartBeiJing\\vpIndicator\\build\\intermediates\\bundles\\debug\\res\\color\\vpi__light_theme.xml"
+        "merged": "C:\\Project\\AndroidProject\\smartBeiJing\\vpIndicator\\build\\intermediates\\res\\merged\\androidTest\\debug\\color\\vpi__light_theme.xml",
+        "source": "C:\\Project\\AndroidProject\\smartBeiJing\\vpIndicator\\build\\intermediates\\bundles\\debug\\res\\color\\vpi__light_theme.xml"
     },
     {
-        "merged": "C:\\Project\\AndroidEclipse\\ZhBj\\vpIndicator\\build\\intermediates\\res\\merged\\androidTest\\debug\\color\\vpi__light_theme.xml",
-        "source": "C:\\Project\\AndroidEclipse\\ZhBj\\vpIndicator\\build\\intermediates\\bundles\\debug\\res\\color\\vpi__light_theme.xml"
-    },
-    {
-        "merged": "C:\\Project\\AndroidEclipse\\ZhBj\\vpIndicator\\build\\intermediates\\res\\merged\\androidTest\\debug\\color\\vpi__dark_theme.xml",
-        "source": "C:\\Project\\AndroidEclipse\\ZhBj\\vpIndicator\\build\\intermediates\\bundles\\debug\\res\\color\\vpi__dark_theme.xml"
-    },
-    {
-        "merged": "C:\\AndroidWorkSpace\\StudioWorkSpace\\smartBeiJing\\vpIndicator\\build\\intermediates\\res\\merged\\androidTest\\debug\\color\\vpi__dark_theme.xml",
-        "source": "C:\\AndroidWorkSpace\\StudioWorkSpace\\smartBeiJing\\vpIndicator\\build\\intermediates\\bundles\\debug\\res\\color\\vpi__dark_theme.xml"
+        "merged": "C:\\Project\\AndroidProject\\smartBeiJing\\vpIndicator\\build\\intermediates\\res\\merged\\androidTest\\debug\\color\\vpi__dark_theme.xml",
+        "source": "C:\\Project\\AndroidProject\\smartBeiJing\\vpIndicator\\build\\intermediates\\bundles\\debug\\res\\color\\vpi__dark_theme.xml"
     }
 ]

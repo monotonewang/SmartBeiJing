@@ -2,13 +2,13 @@ apply plugin: 'com.android.application'
 
 android {
     useLibrary 'org.apache.http.legacy'
-    compileSdkVersion 23
-    buildToolsVersion "23.0.3"
+    compileSdkVersion 24
+    buildToolsVersion "24.0.0"
 
     defaultConfig {
         applicationId "com.example.jizha.zhbj"
         minSdkVersion 16
-        targetSdkVersion 23
+        targetSdkVersion 24
         versionCode 1
         versionName "1.0"
     }
@@ -27,8 +27,8 @@ dependencies {
     compile files('libs/xUtils-2.6.14.jar')
     compile 'com.squareup.okio:okio:1.9.0'
     compile 'com.google.code.gson:gson:2.7'
-    compile 'com.android.support:appcompat-v7:23.0.0'
-    compile 'com.android.support:support-v4:23.0.0'
+    compile 'com.android.support:appcompat-v7:24.0.0'
+    compile 'com.android.support:support-v4:24.0.0'
     //    compile 'com.android.support:appcompat-v7:24.1.1'
     //    compile 'com.android.support:support-v4:24.1.1'
     compile project(':vpIndicator')

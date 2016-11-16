@@ -1,47 +1,23 @@
 [
     {
-        "outputFile": "C:\\Project\\AndroidEclipse\\ZhBj\\SlidingMenu\\build\\intermediates\\res\\merged\\androidTest\\debug\\values\\values.xml",
+        "outputFile": "C:\\Project\\AndroidProject\\smartBeiJing\\SlidingMenu\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values\\values.xml",
         "map": [
             {
                 "to": {
-                    "startLine": 3,
+                    "startLine": 14,
                     "startColumn": 4,
-                    "startOffset": 961,
+                    "startOffset": 1092,
                     "endColumn": 42,
-                    "endOffset": 999
+                    "endOffset": 1130
                 },
                 "from": {
-                    "file": "C:\\Project\\AndroidEclipse\\ZhBj\\SlidingMenu\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "file": "C:\\Project\\AndroidProject\\smartBeiJing\\SlidingMenu\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
                     "position": {
-                        "startLine": 3,
+                        "startLine": 14,
                         "startColumn": 4,
-                        "startOffset": 961,
+                        "startOffset": 1092,
                         "endColumn": 42,
-                        "endOffset": 999
-                    }
-                }
-            }
-        ]
-    },
-    {
-        "outputFile": "C:\\AndroidWorkSpace\\StudioWorkSpace\\smartBeiJing\\SlidingMenu\\build\\intermediates\\res\\merged\\androidTest\\debug\\values\\values.xml",
-        "map": [
-            {
-                "to": {
-                    "startLine": 3,
-                    "startColumn": 4,
-                    "startOffset": 961,
-                    "endColumn": 42,
-                    "endOffset": 999
-                },
-                "from": {
-                    "file": "C:\\AndroidWorkSpace\\StudioWorkSpace\\smartBeiJing\\SlidingMenu\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
-                    "position": {
-                        "startLine": 3,
-                        "startColumn": 4,
-                        "startOffset": 961,
-                        "endColumn": 42,
-                        "endOffset": 999
+                        "endOffset": 1130
                     }
                 }
             }

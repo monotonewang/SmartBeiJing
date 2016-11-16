@@ -1,2 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merger version="3"><dataSet config="main"><source path="C:\AndroidWorkSpace\StudioWorkSpace\smartBeiJing\vpIndicator\src\main\assets"/></dataSet><dataSet config="debug"><source path="C:\AndroidWorkSpace\StudioWorkSpace\smartBeiJing\vpIndicator\src\debug\assets"/></dataSet></merger>
+<merger version="3"><dataSet config="main"><source path="C:\Project\AndroidProject\smartBeiJing\vpIndicator\src\main\assets"/><source path="C:\Project\AndroidProject\smartBeiJing\vpIndicator\build\generated\assets\shaders\debug"/></dataSet><dataSet config="debug"><source path="C:\Project\AndroidProject\smartBeiJing\vpIndicator\src\debug\assets"/></dataSet></merger>
